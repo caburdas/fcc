@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go language</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>
+      Go Language.
+    </header>
+    <ul>
+      <li><a class="nav-link" href="#Introducing_Go_language">Introducing Go language</a></li>
+      <li>
+        <a class="nav-link" href="#Installation">Installation</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+      </li>
+      <li><a class="nav-link" href="#mascot">Mascot</a></li>
+      <li><a class="nav-link" href="#modules">Modules</a></li>
+    </ul>
+    </nav>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introducing_Go_language">
+      <header>
+        Introducing Go language
+      </header>
+      <ul>
+        <li>Build simple</li>
+        <li> secure</li>
+        <li>scalable systems with Go</li></ul>
+      <p> The Go programming language is an open source project to make programmers more productive.</p>
+      <p>Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that
+        get the most out of multicore and networked machines, while its novel type system enables flexible and modular
+        program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the
+        power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically
+        typed, interpreted language. </p>
+      <ul>
+        <li>An open-source programming language supported by Google</li>
+        <li>Easy to learn and great for teams</li>
+        <li>Built-in concurrency and a robust standard library</li>
+        <li>Large ecosystem of partners, communities, and tools</li>
+      </ul>
+    </section>
+    <section class="main-section" id="Installation">
+      <header>
+        Installation
+      </header>
+      <p><a href="https://go.dev/doc/install">Select the right version</a> for your computer's operating system, then
+        follow its installation instructions.</p>
+        <p>Supported platforms:</p>
+        <ol>
+          <li>Linux</li>
+          <li>Windows</li>
+          <li>macOS</li>
+          <li>OpenBSD</li>
+          <li>DragonFly BSD.</li>
+          <li>FreeBSD</li>
+          <li>NetBSD</li>
+          <li>Solaris</li>
+          <li>...</li>
+        </ol>
+        .
+
+    </section>
+    <section class="main-section" id="Hello_World">
+      <header>
+        Hello World
+      </header>
+      <p>After installation create a directory and from a console type:</p>
+      <code>mkdir hello_world
+      </code>
+      <code>cd hello_world
+      </code>
+      <code>go mod init example/hello
+      </code>
+      <p>
+        In your text editor, create a file hello.go in which to write your code.
+
+        Paste the following code into your hello.go file and save the file.</p>
+      <code>
+        package main
+        import "fmt"
+
+        func main() {
+          fmt.Println("Hello, World!")
+        }
+      </code>
+      <p>Run your code to see the greeting.</p>
+      <code>go run .
+        Hello, World!
+      </code>
+    </section>
+    <section class="main-section" id="mascot">
+      <header>
+        Mascot
+      </header>
+      <img src="https://go.dev/blog/gopher/header.jpg" alt="Gopher, golang mascot" id="gopher"/>
+      <p>The Go gopher is an iconic mascot and one of the most distinctive features of the Go project.</p>
+    </section>
+    <section class="main-section" id="modules">
+      <header>
+        Modules
+      </header>
+      <p>
+        Go programs are organized into packages. A package is a collection of source files in the same directory that are compiled together. Functions, types, variables, and constants defined in one source file are visible to all other source files within the same package. 
+      </p>
+      <p>Go programs are organized into packages. A package is a collection of source files in the same directory that are compiled together. Functions, types, variables, and constants defined in one source file are visible to all other source files within the same package.</p>
+      <p>A repository contains one or more modules. A module is a collection of related Go packages that are released together. A Go repository typically contains only one module, located at the root of the repository. A file named go.mod there declares the module path: the import path prefix for all packages within the module. The module contains the packages in the directory containing its go.mod file as well as subdirectories of that directory, up to the next subdirectory containing another go.mod file (if any). </p>
+      <p>Some modules included in standard library:</p>
+      <ul>
+        <li>net</li>
+        <li>os</li>
+        <li>mat</li>
+        <li>log</li>
+        ...
+      </ul>
+      <p>Some utils modules not in standard library:</p>
+      <ul>
+        <li>Gorm</li>
+        <li>Clip</li>
+        <li>Vegeta</li>
+        <li>Gin</li>
+        ...
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
