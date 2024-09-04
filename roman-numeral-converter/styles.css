@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: rgb(61, 61, 240);
+    
+}
+#form-box{
+    position : relative;
+    background-color:cornflowerblue;
+    border: 3px solid black;
+    width: 70%;
+    top: 20vw;
+    margin: auto;
+    
+}
+#number {
+    display: block;
+    margin:15px auto;
+}
