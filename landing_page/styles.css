@@ -1,0 +1,64 @@
+body {
+    background-color: #56727C;
+    color: #D9E9EF;
+}
+
+header {
+    position: fixed;
+    padding: 10px 10px 10px;
+    background-color: #3e4e53;
+    height: 15%;
+    width: 100%;
+    top: 0;
+    border: 8px solid blue,
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header-item  {
+    padding: 25px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.bussines_name {
+    font-size: 25px;
+    font-family: cursive;
+    padding: 25px 15px;
+    /* border: 2px solid red; */
+}
+
+#header-img {
+    height: 15vh;
+    display: block;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+.who {
+    display: grid;
+    place-items: center;
+    padding: 20vh 15px;
+    /* border: 2px solid red; */
+}
+
+.schedule {
+    display: grid;
+    place-items: center;
+    padding: 25vh 15px;
+    /* border: 2px solid red; */
+}
+
+@media print {
+    body {
+        font-size: 16pt;
+    }
+}

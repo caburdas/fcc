@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonny's Bakery</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+
+  <header id="header">    
+    <nav id ="nav-bar">
+      <img src="./bread.svg" alt="bread image" id="header-img" > 
+      <div class="bussines_name">Jonny's Bakery</div>
+     
+      <div class="header-item align-right"><a class="nav-link" href="#who">Who are we</a></div>
+      <div class="header-item"><a class="nav-link" href="#schedule">Schedule</a></div>
+      <div class="header-item" ><a class="nav-link" href="#form">Contact</a></div>
+    </nav>
+  </header>
+
+  
+  <div class="who" id="who">
+    <h2>Who are we</h2>
+    <iframe id="video" width="420" height="315"
+      src="https://youtube.com/embed/FjkyrRjPU94?si=Giohvtw8CqHfdiry">
+    </iframe> 
+  </div>
+
+  <div class="schedule" id="schedule">
+    <h2>schedule</h2>
+    <p><i>Mon-Sat:</i> 7:00-23:00</p>
+    <br>
+  <p><i>Sun:</i> 9:00-14:00</p>
+  </div>
+
+  <form id="form" action="https://www.freecodecamp.com/email-submit" >
+    <fieldset>
+      <legend>Contact us</legend>
+      <input type="email" id="email" placeholder="your@email.org" name="email"/>
+      <input type="submit" id="submit"></input>
+    </fieldset>
+  </form>
+</body>
+
+</html>
